@@ -148,7 +148,7 @@ export const RESUME_DATA = {
     },
     {
       company: "Foowd",
-      //link: "https://digitag.me",
+      link: "",
       badges: ["freelance"],
       title: "Fullstack Developer",
       //logo: NSNLogo,
@@ -158,7 +158,7 @@ export const RESUME_DATA = {
     },
     {
       company: "BigThink",
-      //link: "https://digitag.me",
+      link: "",
       badges: ["intern"],
       title: "Angular Developer",
       //logo: NSNLogo,
