@@ -1,22 +1,3 @@
-import {
-  AmbitLogo,
-  BarepapersLogo,
-  BimLogo,
-  CDGOLogo,
-  ClevertechLogo,
-  ConsultlyLogo,
-  EvercastLogo,
-  Howdy,
-  JarockiMeLogo,
-  JojoMobileLogo,
-  Minimal,
-  MobileVikingsLogo,
-  MonitoLogo,
-  NSNLogo,
-  ParabolLogo,
-  TastyCloudLogo,
-  YearProgressLogo,
-} from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
@@ -25,14 +6,16 @@ export const RESUME_DATA = {
   location: "Milano, Italy, CET",
   locationLink: "https://www.google.com/maps/place/Milano",
   about:
-    "Fullstack Architect focused to ship robust and good quality software.",
+    "Fullstack Architect focused on ship robust and good quality software.",
   summary:
-    "TODO",
+    "Hello there, here's Marco, 10 years of experience as <b>Software Engineer</b> in the software industry. I headed my career path to <b>Software Architect</b> roles in start-ups and in consultancy. I think to be the missing piece for companies aiming to create great quality products without sacrificing productivity and delivery.<br>Based in Milan, but frequently around the Globe, I've great experience in Remote working even before pandemic. <br>Last, but not least, I'm an incredible bartender. Why is that relevant? Company events can be funnier than ever expected, isn't it?",
   avatarUrl: "https://avatars.githubusercontent.com/u/5390248?v=4",
-  personalWebsiteUrl: "https://predorock.github.io",
+  personalWebsiteUrl: "https://predorock.github.io/cv",
+ 
   contact: {
     email: "predorock@gmail.com",
-    tel: "++393336823157",
+    tel: "+393336823157",
+    cv: "https://predorock.github.io/cv/marco-predari-cv.pdf",
     social: [
       {
         name: "GitHub",
@@ -69,7 +52,7 @@ export const RESUME_DATA = {
       start: "2024",
       end: null,
       description:[
-        "Developed a new set of simulators to improve the houses energy class",
+        "Developed a new set of web simulators to help customer to improve houses energy efficiency and increase money saving.",
       ]
     },
     {
@@ -81,9 +64,9 @@ export const RESUME_DATA = {
       start: "2023",
       end: null,
       description:[
-        "Designed the new infrastructure fot the Ublique platform based on microservices, terraform and AWS.",
+        "Designed the new infrastructure based on microservices, terraform and k8s on AWS.",
         "Worked alongside pre-sale and solution managers to support the customer acquisition.",
-        "Created data integration patterns to link the customer data to Ublique platform"
+        "Created data integration patterns to bring the customer data quickly."
       ]
     },
     {
@@ -91,23 +74,25 @@ export const RESUME_DATA = {
       link: "https://ublique.ai",
       badges: ["Remote"],
       title: "Tech Team Lead",
-      logo: ParabolLogo,
+      //logo: ParabolLogo,
       start: "2023",
       end: "2022",
-      description:
-        "Leading a group of four dev responsible do develop and maintain the core of ublique platform (Java microservices)",
+      description: [
+        "Leading a group of four devs responsible to develop and maintain the core of ublique platform (Java microservices).",
+        "Design a new pipeline and versioning system for software CI/CD.",
+      ]
     },
     {
       company: "Spindox",
       link: "https://spindox.it",
       badges: ["Hybrid"],
       title: "Fullstack Developer",
-      logo: ClevertechLogo,
+      //logo: ClevertechLogo,
       start: "2020",
       end: "2022",
       description: [
         "Led the team to the adoption of the Monorepo Pattern for Angular2 projects.",
-        "Developed Cordova apps to manage Microsoft Dynamics CRM data"
+        "Developed Cordova apps to manage Microsoft Dynamics CRM data."
       ]
     },
     {
@@ -119,7 +104,7 @@ export const RESUME_DATA = {
       start: "2018",
       end: "2020",
       description: [
-        "Smart home mobile app to perform energy analisys on business buildings",
+        "Smart home mobile app to perform energy analisys on business buildings.",
       ]
     },
     {
@@ -132,8 +117,8 @@ export const RESUME_DATA = {
       end: "2020",
       description: [
         "Developed Mobile applications based on cordova and Ionic.",
-        "Early adopter of the Google Firebase Platform and Cloud Run",
-        "Design a custom role engine (Java Drools) for employees satisfaction analisys",
+        "Early adopter of the Google Firebase Platform and Cloud Run.",
+        "Design a custom role engine (Java Drools) for employees satisfaction analisys.",
       ]
     },
     {
@@ -144,7 +129,7 @@ export const RESUME_DATA = {
       //logo: NSNLogo,
       start: "2015",
       end: "2016",
-      description: "E-Commerce Software Developer with wordpress and prestashop. Taylor made software solutions for the Art Auction software market",
+      description: "E-Commerce Software Developer with wordpress and prestashop. Developed taylor made software solutions for the art auction market.",
     },
     {
       company: "Foowd",
@@ -154,7 +139,7 @@ export const RESUME_DATA = {
       //logo: NSNLogo,
       start: "2013",
       end: "2014",
-      description: "Created the E-Commerce based on elgg platform for social and food market",
+      description: "Created a E-Commerce based on Elgg framework for gorceries social buying.",
     },
     {
       company: "BigThink",
@@ -164,7 +149,10 @@ export const RESUME_DATA = {
       //logo: NSNLogo,
       start: "2013",
       end: "2014",
-      description: "E-Commerce Software Developer with wordpress and prestashop. Taylor made software solutions for the Art Auction software market",
+      description: [
+        "Developed AngularJS applications for the Facebook app market.",
+        "Design and conribute to the company framework to fast devliver fullstack applications (Laravel, AngularJS)."
+      ]
     },
   ],
   skills: [
@@ -194,11 +182,22 @@ export const RESUME_DATA = {
       ],
       description:
         "Ublique is a decision support system composed of a suite of vertical solutions created to help managers in the design and management of complex systems and processes.",
-      //logo: ParabolLogo,
+      
+//logo: ParabolLogo,
       link: {
         label: "ublique",
         href: "https://ublique.ai/",
       },
     },
   ],
+  hobbies: [
+    {
+      name: "Scuba Diving",
+      description:"I am an advanced certified diver."
+    },
+    {
+      name: "Bartending",
+      description:"I am certified bartender and Gin connoisseur."
+    },
+  ]
 } as const;
