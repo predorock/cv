@@ -15,7 +15,7 @@ export const RESUME_DATA = {
   contact: {
     email: "predorock@gmail.com",
     tel: "+393336823157",
-    cv: "https://predorock.github.io/cv/marco-predari-cv.pdf",
+    cv: "./marco-predari-cv.pdf",
     social: [
       {
         name: "GitHub",
