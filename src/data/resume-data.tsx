@@ -6,7 +6,7 @@ export const RESUME_DATA = {
   location: "Milano, Italy, CET",
   locationLink: "https://www.google.com/maps/place/Milano",
   about:
-    "Fullstack Architect focused on ship robust and good quality software.",
+    "Software Engineer focused on ship robust and good quality software.",
   summary:
     "Hello there, here's Marco, 10 years of experience as <b>Software Engineer</b> in the software industry. I headed my career path to <b>Software Architect</b> roles in start-ups and in consultancy. I think to be the missing piece for companies aiming to create great quality products without sacrificing productivity and delivery.<br>Based in Milan, but frequently around the Globe, I've great experience in Remote working even before pandemic. <br>Last, but not least, I'm an incredible bartender. Why is that relevant? Company events can be funnier than ever expected, isn't it?",
   avatarUrl: "https://avatars.githubusercontent.com/u/5390248?v=4",
