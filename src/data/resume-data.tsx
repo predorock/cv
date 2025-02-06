@@ -8,7 +8,7 @@ export const RESUME_DATA = {
   about:
     "Software Engineer focused on ship robust and good quality software.",
   summary:
-    "Hello there, here's Marco, 10 years of experience as <b>Software Engineer</b> in the software industry. I headed my career path to <b>Software Architect</b> roles in start-ups and in consultancy. I think to be the missing piece for companies aiming to create great quality products without sacrificing productivity and delivery.<br>Based in Milan, but frequently around the Globe, I've great experience in Remote working even before pandemic. <br>Last, but not least, I'm an incredible bartender. Why is that relevant? Company events can be funnier than ever expected, isn't it?",
+    "Hello there, here's Marco, 10 years of experience as <b>Software Engineer</b> in the software industry. I headed my career path to <b>Software Architect</b> roles in start-ups and in consultancy. I am a key contributor for companies focused on delivering high-quality products while maintaining productivity and timely project delivery.<br>Based in Milan, but frequently around the Globe, I've great experience in Remote working even before pandemic. <br>Last, but not least, I'm an incredible bartender. Why is that relevant? Company events can be funnier than ever expected, isn't it?",
   avatarUrl: "https://avatars.githubusercontent.com/u/5390248?v=4",
   personalWebsiteUrl: "https://predorock.github.io/cv",
  
@@ -52,7 +52,7 @@ export const RESUME_DATA = {
       start: "2024",
       end: null,
       description:[
-        "Developed a new set of web simulators to help customer to improve houses energy efficiency and increase money saving.",
+        "Developed a suite of web simulators that assist customers in enhancing energy efficiency in residential properties, leading to significant cost savings.",
       ]
     },
     {
@@ -64,9 +64,10 @@ export const RESUME_DATA = {
       start: "2023",
       end: null,
       description:[
-        "Designed the new infrastructure based on microservices, terraform and k8s on AWS.",
+        "Designed a new cloud infrastructure leveraging microservices architecture, Terraform, and Kubernetes on AWS.",
+        "I collaborated with the Artificial Intelligence and Machine Learning team to build reliabile software and hardware infrastructures for our customers.",
         "Worked alongside pre-sale and solution managers to support the customer acquisition.",
-        "Created data integration patterns to bring the customer data quickly."
+        "Created data integration patterns to import the customer data quickly."
       ]
     },
     {
