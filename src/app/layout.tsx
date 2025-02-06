@@ -1,9 +1,9 @@
-import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/react";
 import { Inter } from "next/font/google";
 
 import "./globals.css";
 import React from "react";
+import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Marco Predari CV",
