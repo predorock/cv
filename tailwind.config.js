@@ -74,4 +74,10 @@ module.exports = {
     },
   },
   plugins: [require("tailwindcss-animate")],
+  safelist: [
+    'break-inside-avoid',
+    'break-before-avoid',
+    'break-before-page',
+    'break-after-page',
+  ]
 }

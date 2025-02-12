@@ -24,6 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={inter.className}>
       <link rel="icon" href="/favicon.ico" sizes="any" />
+      <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
       <body>{children}</body>
       <Analytics />
     </html>

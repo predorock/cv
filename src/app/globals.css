@@ -78,3 +78,9 @@
 .print-force-new-page {
   page-break-before: always;
 }
+
+@media print {
+  .print-section:not(:first-child) {
+      margin-top: 10rem;  /* or your preferred spacing */
+  }
+}
