@@ -298,7 +298,8 @@ export const RESUME_DATA = {
   certifications: [
     {
       name: "AWS Cloud Practioner",
-      image: "./aws-certified-cloud-practitioner.png",
+      image: "/aws-certified-cloud-practitioner.png",
+      link: "https://www.credly.com/badges/a128b214-a998-436a-a73e-678448818913/public_url",
     }
   ]
 } as const;
