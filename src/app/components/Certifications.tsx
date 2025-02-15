@@ -23,7 +23,7 @@ function CertificationList({ certifications, className }: CertificationList) {
       {certifications.map((certification) => (
         <li key={certification.name}>
           <a href={certification.link} target="_blank" rel="noopener noreferrer">
-            <Image src={certification.image} alt={certification.name} width={100} height={100} />
+            <img src={certification.image} alt={certification.name} width={100} height={100} />
           </a>
         </li>
       ))}
