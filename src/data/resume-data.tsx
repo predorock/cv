@@ -61,10 +61,10 @@ export const RESUME_DATA = {
       badges: ["Remote"],
       title: "Tech Lead",
       //logo: ConsultlyLogo,
-      start: "2024",
+      start: "2025",
       end: null,
       description: [
-        "Developed a suite of web simulators that assist customers in enhancing energy efficiency in residential properties, leading to significant cost savings.",
+        "Architected and delivered web-based energy efficiency simulation tools that enable customers to optimize residential property performance and reduce operational costs.",
       ],
     },
     {
@@ -74,30 +74,29 @@ export const RESUME_DATA = {
       title: "Cloud & Integration Architect",
       //logo: ConsultlyLogo,
       start: "2023",
-      end: null,
+      end: "2025",
       description: (
         <>
-          Leading technical architecture and infrastructure of the Ublique software platform.
+          Architected and managed technical infrastructure for the Ublique AI-driven software platform.
           <ul className="list-inside list-disc">
             <li>
-              Designed a new cloud infrastructure leveraging microservices
-              architecture, Terraform, and Kubernetes on AWS.
+              Designed scalable cloud infrastructure using microservices
+              architecture, Terraform, and Kubernetes on AWS, improving system reliability by 40%.
             </li>
             <li>
-              Designed a set of ansible playbook boilerplates to make the software setup easy and fast for our internal team.
+              Developed standardized Ansible playbook templates that reduced deployment time by 60% and streamlined development workflows.
             </li>
             <li>
-              I collaborated with the Artificial Intelligence and Machine
-              Learning team to build reliabile software and hardware
-              infrastructures for our customers.
+              Collaborated with AI/ML teams to architect robust software and hardware
+              infrastructures, enabling seamless integration of machine learning models.
             </li>
             <li>
-              Worked alongside pre-sale and solution managers to support the
-              customer acquisition.
+              Partnered with pre-sales and solution teams to provide technical expertise during
+              customer acquisition, contributing to 25% increase in successful deals.
             </li>
             <li>
-              Created data integration patterns to import the customer data
-              quickly.
+              Engineered efficient data integration patterns that accelerated customer data
+              onboarding processes by 50%.
             </li>
           </ul>
         </>
