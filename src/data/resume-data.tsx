@@ -56,6 +56,18 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "Epicode",
+      link: "https://epicode.com/",
+      badges: ["Remote"],
+      title: "Software Engineer",
+      //logo: ConsultlyLogo,
+      start: "2025",
+      end: null,
+      description: [
+        "Contributing to innovative projects that shape the future of education and professional development, including LinkedOut, an AI-powered platform that assesses and enhances professional skills for the evolving job market, and MicroLearn, an interactive microlearning platform designed to deliver engaging and personalized learning experiences.",
+      ],
+    },
+    {
       company: "Greenovation",
       link: "https://greenovation.it",
       badges: ["Remote"],
@@ -64,7 +76,7 @@ export const RESUME_DATA = {
       start: "2025",
       end: null,
       description: [
-        "Architected and delivered web-based energy efficiency simulation tools that enable customers to optimize residential property performance and reduce operational costs.",
+        "Architected and delivered web-based energy efficiency simulation tools that enable customers to optimize residential property performance and reduce operational costs. Developed multiple vertical simulators for boilers, air conditioning systems, and house electrification. Created a composable framework from scratch to standardize and accelerate the development of new simulators, enabling rapid prototyping and deployment of domain-specific simulation solutions.",
       ],
     },
     {
@@ -273,21 +285,43 @@ export const RESUME_DATA = {
         "Terraform",
         "Docker",
         "K8S",
+        "AI",
+        "ML"
       ],
       description:
-        "Ublique is a decision support system composed of a suite of vertical solutions created to help managers in the design and management of complex systems and processes.",
+        "Ublique is a composable AI platform for decision intelligence that integrates decision modelling, data analytics, AI, and mathematical optimization. It enables operations leaders in manufacturing, logistics, supply chain, and utilities to streamline complex business processes and enhance decision-making. The platform is recognized as a Representative Vendor in the 2024 Gartner Market Guide for Decision Intelligence Platforms.",
 
       //logo: ParabolLogo,
       link: {
         label: "ublique",
-        href: "https://ublique.ai/",
+        href: "https://makeamark.spindox.it/en/ublique-platform/",
       },
     },
+    {
+      title: "LinkedOut",
+      techStack: [
+        "AI",
+        "Tech Lead",
+        "Architect",
+        "React",
+        "Next.js",
+        "Vercel",
+        "Express.js",
+        "OpenAI",
+      ],
+      description: "LinkedOut is an AI-powered platform that assesses whether professionals have the right skills to stay relevant in the job market. It evaluates users' CVs or manually provided data against future job market trends, identifying skill gaps and opportunities in the evolving economy where 92 million jobs will disappear but 170 million new ones will be created.",
+     
+      //logo: ParabolLogo,
+      link: {
+        label: "linkedout",
+        href: "https://linkedout.epicode.com/",
+      },
+    }
   ],
   hobbies: [
     {
       name: "Scuba Diving",
-      description: "I am an advanced certified diver.",
+      description: "I am a dive master certified diver.",
     },
     {
       name: "Bartending",
